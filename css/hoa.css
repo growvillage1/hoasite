@@ -3,7 +3,8 @@ body {
 }
 
 .paid {
-    color: green;
+    color: rgb(26, 201, 26);
+    text-align: center;
 }
 
 table {
@@ -14,6 +15,9 @@ table, th, td {
     border: 1px solid #ccc;
 }
 
-th, tc {
+th, td {
     padding: 10px;
+}
+tr:hover {
+    background-color: #ddd;
 }
